@@ -1,1 +1,67 @@
-My Page
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import materialize.css-->
+      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js">
+      <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script></script>
+
+
+    <div class="card-panel grey lighten-2">
+      <span class="grey-text text-darken-2"><h5>This is a head</h5></span>
+    </div>
+
+    
+      
+
+<div class="row">
+      
+      <div class="col s7  grid-example"><span class="flow-text grey-text text-darken-2"><p2
+      >Developers amplify the value of your product any time they build new applications based on your product capabilities and the data it manages. Make sure your application programming interfaces (APIs) and software developer kits (SDKs) are designed and well written. They should be informed by the most common use cases and be simple enough to start using quickly. Make common tasks easy and don’t solve for edge cases at their expense. APIs must be documented cleanly and clearly. They should also be complete, with availability of all of the capabilities your users expect.</p2></span></div>
+<body>
+      <div class="container">
+        <!-- Page Content goes here -->
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <style type="text/css">
+    
+      div.bar {
+        display: inline-block;
+        width: 20px;
+        height: 75px; /* Gets overriden by D3-assigned height below */
+        margin-right: 2px;
+        background-color: teal;
+      }
+    
+    </style>
+  </head>
+  <body>
+  <script type="text/javascript">
+    
+      var dataset = [ 25, 7, 5, 26, 11, 8, 25, 14, 23, 19, 14, 11, 22, 29, 11, 13, 12, 17, 18, 10, 24, 18, 25, 9, 3 ];
+      
+      d3.select("body").selectAll("div")
+        .data(dataset)
+        .enter()
+        .append("div")
+        .attr("class", "bar")
+        .style("height", function(d) {
+          var barHeight = d * 5;
+          return barHeight + "px";
+        });
+      
+    </script>
+  </body>
+      </div>
+    </body>
+            
+    </body>
+  </html>
+
